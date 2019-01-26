@@ -1,0 +1,9 @@
+body{
+    background-color:lightblue;
+}
+.cards{
+    width: 500px;
+    height:400px;
+    margin: auto;
+    border :2px solid;
+}
