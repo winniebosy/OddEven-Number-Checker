@@ -1,10 +1,11 @@
 function getNumbers() {
     var num = '';
+    num = document.getElementById("number").value;
     if (num % 2 === 0) {
-        document.getElementById("").innerHTML = num + " " + "is even!";
+        document.getElementById("output").innerHTML = num + " " + "is even!";
     }
     else {
-        document.getElementById("").innerHTML = num + " " + "is odd!";
+        document.getElementById("output").innerHTML = num + " " + "is odd!";
     }
     //this fucntion will allow only number to be entered in the text box
     function allowOnlyNumbers(evt) {
