@@ -1,6 +1,6 @@
 
 
-//
+//function to access whether a number is even or odd
 function getNumbers() {
     var num = '';
     num = document.getElementById("number").value;
